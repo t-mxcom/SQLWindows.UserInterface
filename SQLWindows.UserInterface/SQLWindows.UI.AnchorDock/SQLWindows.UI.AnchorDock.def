@@ -1,0 +1,7 @@
+; SQLWindows.UI.AnchorDock.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SQLWindows.UI.AnchorDock"
+
+EXPORTS
+	UISalResizingAddAnchor			@170
+	UISalResizingRemoveAnchor		@171
