@@ -1,0 +1,89 @@
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,0,24
+ PRODUCTVERSION 3,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "sqlwindows.userinterface@t-mx.com"
+#if defined(_TD51)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 5.1 applications."
+#elif defined(_TD52SP1)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 5.2 SP1 applications."
+#elif defined(_TD52SP2)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 5.2 SP2 applications."
+#elif defined(_TD60RTM)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 6.0 RTM applications."
+#elif defined(_TD60SP2)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 6.0 SP2 applications."
+#elif defined(_TD60SP3)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 6.0 SP3 applications."
+#elif defined(_TD60SP5)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 6.0 SP5 applications."
+#elif defined(_TD61RTM)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 6.1 RTM applications."
+#elif defined(_TD61SP3R)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 6.1 SP3R applications."
+#elif defined(_TD61SP4)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 6.1 SP4 applications."
+#elif defined(_TD61SP5)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 6.1 SP5 applications."
+#elif defined(_TD62RTM)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 6.2 RTM applications."
+#elif defined(_TD62SP1)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 6.2 SP1 applications."
+#elif defined(_TD63RTM)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 6.3 RTM applications."
+#elif defined(_TD63SP1)
+            VALUE "FileDescription", "User Interface Enhancement library for Team Developer 6.3 SP1 applications."
+#endif
+            VALUE "FileVersion", "3.0.0.24"
+            VALUE "InternalName", "SQLWindows.UserInterface.dll"
+            VALUE "LegalCopyright", "(c) 2009-2015 sqlwindows.userinterface@t-mx.com"
+            VALUE "OriginalFilename", "SQLWindows.UserInterface.dll"
+            VALUE "ProductName", "User Interface Extensions for SQL Windows/32."
+            VALUE "ProductVersion", "3.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+#endif    // Neutral (Default) resources
+/////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,215 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLWindows.UserInterface", "SQLWindows.UserInterface\SQLWindows.UserInterface.2005.vcproj", "{AB02A327-4A2D-4251-9911-6D5FF84C4944}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLWindows.UI.AnchorDock", "SQLWindows.UI.AnchorDock\SQLWindows.UI.AnchorDock.2005.vcproj", "{7E89F013-6757-412F-A5C5-6A9418525604}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944} = {AB02A327-4A2D-4251-9911-6D5FF84C4944}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLWindows.UI.Button", "SQLWindows.UI.Button\SQLWindows.UI.Button.2005.vcproj", "{BF8A3CA7-28B0-4510-A028-73865D669B0B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E89F013-6757-412F-A5C5-6A9418525604} = {7E89F013-6757-412F-A5C5-6A9418525604}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLWindows.UI.ControlBar", "SQLWindows.UI.ControlBar\SQLWindows.UI.ControlBar.2005.vcproj", "{7B93CD36-7BB5-4781-BAB8-A33E02574E44}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B} = {BF8A3CA7-28B0-4510-A028-73865D669B0B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLWindows.UI.ProgressBar", "SQLWindows.UI.ProgressBar\SQLWindows.UI.ProgressBar.2005.vcproj", "{3659102C-0F4F-4D14-AC64-60C8D095A34E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44} = {7B93CD36-7BB5-4781-BAB8-A33E02574E44}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLWindows.UI.ResourceManager", "SQLWindows.UI.ResourceManager\SQLWindows.UI.ResourceManager.2005.vcproj", "{72DA4DD0-237D-4A11-8B55-165E6E4D975D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E} = {3659102C-0F4F-4D14-AC64-60C8D095A34E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLWindows.UI.WindowTools", "SQLWindows.UI.WindowTools\SQLWindows.UI.WindowTools.2005.vcproj", "{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D} = {72DA4DD0-237D-4A11-8B55-165E6E4D975D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLWindows.UI.Grid", "SQLWindows.UI.Grid\SQLWindows.UI.Grid.2005.vcproj", "{64A179A7-C15C-4AED-819A-4DE674BA9301}"
+	ProjectSection(ProjectDependencies) = postProject
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F} = {657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLWindows.UI.Label", "SQLWindows.UI.Label\SQLWindows.UI.Label.2005.vcproj", "{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{64A179A7-C15C-4AED-819A-4DE674BA9301} = {64A179A7-C15C-4AED-819A-4DE674BA9301}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B8284625-8C6A-40A5-9B85-72578D996E4F}"
+	ProjectSection(SolutionItems) = preProject
+		src\AnchorDock.cpp = src\AnchorDock.cpp
+		src\Background.cpp = src\Background.cpp
+		src\Button.cpp = src\Button.cpp
+		src\ControlBar.cpp = src\ControlBar.cpp
+		src\CUIExtProgressWnd.cpp = src\CUIExtProgressWnd.cpp
+		src\ExtMsgBox.cpp = src\ExtMsgBox.cpp
+		src\Grid.cpp = src\Grid.cpp
+		src\Label.cpp = src\Label.cpp
+		src\MDIWindowsList.cpp = src\MDIWindowsList.cpp
+		src\ProgressBar.cpp = src\ProgressBar.cpp
+		src\ResourceManager.cpp = src\ResourceManager.cpp
+		src\WindowManagement.cpp = src\WindowManagement.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "inc", "inc", "{D32EF0DC-5FDD-4624-8371-18A023316498}"
+	ProjectSection(SolutionItems) = preProject
+		inc\ExtMsgBox.h = inc\ExtMsgBox.h
+		inc\Prof-UIS.h = inc\Prof-UIS.h
+		inc\stdafx.h = inc\stdafx.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "res", "res", "{283A878B-F4CA-4296-A107-015F9DFF1AF2}"
+	ProjectSection(SolutionItems) = preProject
+		res\version.rc = res\version.rc
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release TD 5.1|Win32 = Release TD 5.1|Win32
+		Release TD 5.2 SP1|Win32 = Release TD 5.2 SP1|Win32
+		Release TD 5.2 SP2|Win32 = Release TD 5.2 SP2|Win32
+		Release TD 6.0 RTM|Win32 = Release TD 6.0 RTM|Win32
+		Release TD 6.0 SP2|Win32 = Release TD 6.0 SP2|Win32
+		Release TD 6.0 SP3|Win32 = Release TD 6.0 SP3|Win32
+		Release TD 6.0 SP5|Win32 = Release TD 6.0 SP5|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 5.1|Win32.ActiveCfg = Release TD 5.1|Win32
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 5.1|Win32.Build.0 = Release TD 5.1|Win32
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 5.2 SP1|Win32.ActiveCfg = Release TD 5.2 SP1|Win32
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 5.2 SP1|Win32.Build.0 = Release TD 5.2 SP1|Win32
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 5.2 SP2|Win32.ActiveCfg = Release TD 5.2 SP2|Win32
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 5.2 SP2|Win32.Build.0 = Release TD 5.2 SP2|Win32
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 6.0 RTM|Win32.ActiveCfg = Release TD 6.0 RTM|Win32
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 6.0 RTM|Win32.Build.0 = Release TD 6.0 RTM|Win32
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 6.0 SP2|Win32.ActiveCfg = Release TD 6.0 SP2|Win32
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 6.0 SP2|Win32.Build.0 = Release TD 6.0 SP2|Win32
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 6.0 SP3|Win32.ActiveCfg = Release TD 6.0 SP3|Win32
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 6.0 SP3|Win32.Build.0 = Release TD 6.0 SP3|Win32
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 6.0 SP5|Win32.ActiveCfg = Release TD 6.0 SP5|Win32
+		{AB02A327-4A2D-4251-9911-6D5FF84C4944}.Release TD 6.0 SP5|Win32.Build.0 = Release TD 6.0 SP5|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 5.1|Win32.ActiveCfg = Release TD 5.1|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 5.1|Win32.Build.0 = Release TD 5.1|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 5.2 SP1|Win32.ActiveCfg = Release TD 5.2 SP1|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 5.2 SP1|Win32.Build.0 = Release TD 5.2 SP1|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 5.2 SP2|Win32.ActiveCfg = Release TD 5.2 SP2|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 5.2 SP2|Win32.Build.0 = Release TD 5.2 SP2|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 6.0 RTM|Win32.ActiveCfg = Release TD 6.0 RTM|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 6.0 RTM|Win32.Build.0 = Release TD 6.0 RTM|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 6.0 SP2|Win32.ActiveCfg = Release TD 6.0 SP2|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 6.0 SP2|Win32.Build.0 = Release TD 6.0 SP2|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 6.0 SP3|Win32.ActiveCfg = Release TD 6.0 SP3|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 6.0 SP3|Win32.Build.0 = Release TD 6.0 SP3|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 6.0 SP5|Win32.ActiveCfg = Release TD 6.0 SP5|Win32
+		{7E89F013-6757-412F-A5C5-6A9418525604}.Release TD 6.0 SP5|Win32.Build.0 = Release TD 6.0 SP5|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 5.1|Win32.ActiveCfg = Release TD 5.1|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 5.1|Win32.Build.0 = Release TD 5.1|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 5.2 SP1|Win32.ActiveCfg = Release TD 5.2 SP1|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 5.2 SP1|Win32.Build.0 = Release TD 5.2 SP1|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 5.2 SP2|Win32.ActiveCfg = Release TD 5.2 SP2|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 5.2 SP2|Win32.Build.0 = Release TD 5.2 SP2|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 6.0 RTM|Win32.ActiveCfg = Release TD 6.0 RTM|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 6.0 RTM|Win32.Build.0 = Release TD 6.0 RTM|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 6.0 SP2|Win32.ActiveCfg = Release TD 6.0 SP2|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 6.0 SP2|Win32.Build.0 = Release TD 6.0 SP2|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 6.0 SP3|Win32.ActiveCfg = Release TD 6.0 SP3|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 6.0 SP3|Win32.Build.0 = Release TD 6.0 SP3|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 6.0 SP5|Win32.ActiveCfg = Release TD 6.0 SP5|Win32
+		{BF8A3CA7-28B0-4510-A028-73865D669B0B}.Release TD 6.0 SP5|Win32.Build.0 = Release TD 6.0 SP5|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 5.1|Win32.ActiveCfg = Release TD 5.1|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 5.1|Win32.Build.0 = Release TD 5.1|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 5.2 SP1|Win32.ActiveCfg = Release TD 5.2 SP1|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 5.2 SP1|Win32.Build.0 = Release TD 5.2 SP1|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 5.2 SP2|Win32.ActiveCfg = Release TD 5.2 SP2|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 5.2 SP2|Win32.Build.0 = Release TD 5.2 SP2|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 6.0 RTM|Win32.ActiveCfg = Release TD 6.0 RTM|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 6.0 RTM|Win32.Build.0 = Release TD 6.0 RTM|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 6.0 SP2|Win32.ActiveCfg = Release TD 6.0 SP2|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 6.0 SP2|Win32.Build.0 = Release TD 6.0 SP2|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 6.0 SP3|Win32.ActiveCfg = Release TD 6.0 SP3|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 6.0 SP3|Win32.Build.0 = Release TD 6.0 SP3|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 6.0 SP5|Win32.ActiveCfg = Release TD 6.0 SP5|Win32
+		{7B93CD36-7BB5-4781-BAB8-A33E02574E44}.Release TD 6.0 SP5|Win32.Build.0 = Release TD 6.0 SP5|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 5.1|Win32.ActiveCfg = Release TD 5.1|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 5.1|Win32.Build.0 = Release TD 5.1|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 5.2 SP1|Win32.ActiveCfg = Release TD 5.2 SP1|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 5.2 SP1|Win32.Build.0 = Release TD 5.2 SP1|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 5.2 SP2|Win32.ActiveCfg = Release TD 5.2 SP2|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 5.2 SP2|Win32.Build.0 = Release TD 5.2 SP2|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 6.0 RTM|Win32.ActiveCfg = Release TD 6.0 RTM|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 6.0 RTM|Win32.Build.0 = Release TD 6.0 RTM|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 6.0 SP2|Win32.ActiveCfg = Release TD 6.0 SP2|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 6.0 SP2|Win32.Build.0 = Release TD 6.0 SP2|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 6.0 SP3|Win32.ActiveCfg = Release TD 6.0 SP3|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 6.0 SP3|Win32.Build.0 = Release TD 6.0 SP3|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 6.0 SP5|Win32.ActiveCfg = Release TD 6.0 SP5|Win32
+		{3659102C-0F4F-4D14-AC64-60C8D095A34E}.Release TD 6.0 SP5|Win32.Build.0 = Release TD 6.0 SP5|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 5.1|Win32.ActiveCfg = Release TD 5.1|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 5.1|Win32.Build.0 = Release TD 5.1|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 5.2 SP1|Win32.ActiveCfg = Release TD 5.2 SP1|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 5.2 SP1|Win32.Build.0 = Release TD 5.2 SP1|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 5.2 SP2|Win32.ActiveCfg = Release TD 5.2 SP2|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 5.2 SP2|Win32.Build.0 = Release TD 5.2 SP2|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 6.0 RTM|Win32.ActiveCfg = Release TD 6.0 RTM|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 6.0 RTM|Win32.Build.0 = Release TD 6.0 RTM|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 6.0 SP2|Win32.ActiveCfg = Release TD 6.0 SP2|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 6.0 SP2|Win32.Build.0 = Release TD 6.0 SP2|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 6.0 SP3|Win32.ActiveCfg = Release TD 6.0 SP3|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 6.0 SP3|Win32.Build.0 = Release TD 6.0 SP3|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 6.0 SP5|Win32.ActiveCfg = Release TD 6.0 SP5|Win32
+		{72DA4DD0-237D-4A11-8B55-165E6E4D975D}.Release TD 6.0 SP5|Win32.Build.0 = Release TD 6.0 SP5|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 5.1|Win32.ActiveCfg = Release TD 5.1|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 5.1|Win32.Build.0 = Release TD 5.1|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 5.2 SP1|Win32.ActiveCfg = Release TD 5.2 SP1|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 5.2 SP1|Win32.Build.0 = Release TD 5.2 SP1|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 5.2 SP2|Win32.ActiveCfg = Release TD 5.2 SP2|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 5.2 SP2|Win32.Build.0 = Release TD 5.2 SP2|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 6.0 RTM|Win32.ActiveCfg = Release TD 6.0 RTM|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 6.0 RTM|Win32.Build.0 = Release TD 6.0 RTM|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 6.0 SP2|Win32.ActiveCfg = Release TD 6.0 SP2|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 6.0 SP2|Win32.Build.0 = Release TD 6.0 SP2|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 6.0 SP3|Win32.ActiveCfg = Release TD 6.0 SP3|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 6.0 SP3|Win32.Build.0 = Release TD 6.0 SP3|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 6.0 SP5|Win32.ActiveCfg = Release TD 6.0 SP5|Win32
+		{657C8188-6BD2-415E-B5CF-8FF1F3FEC45F}.Release TD 6.0 SP5|Win32.Build.0 = Release TD 6.0 SP5|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 5.1|Win32.ActiveCfg = Release TD 5.1|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 5.1|Win32.Build.0 = Release TD 5.1|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 5.2 SP1|Win32.ActiveCfg = Release TD 5.2 SP1|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 5.2 SP1|Win32.Build.0 = Release TD 5.2 SP1|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 5.2 SP2|Win32.ActiveCfg = Release TD 5.2 SP2|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 5.2 SP2|Win32.Build.0 = Release TD 5.2 SP2|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 6.0 RTM|Win32.ActiveCfg = Release TD 6.0 RTM|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 6.0 RTM|Win32.Build.0 = Release TD 6.0 RTM|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 6.0 SP2|Win32.ActiveCfg = Release TD 6.0 SP2|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 6.0 SP2|Win32.Build.0 = Release TD 6.0 SP2|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 6.0 SP3|Win32.ActiveCfg = Release TD 6.0 SP3|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 6.0 SP3|Win32.Build.0 = Release TD 6.0 SP3|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 6.0 SP5|Win32.ActiveCfg = Release TD 6.0 SP5|Win32
+		{64A179A7-C15C-4AED-819A-4DE674BA9301}.Release TD 6.0 SP5|Win32.Build.0 = Release TD 6.0 SP5|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 5.1|Win32.ActiveCfg = Release TD 5.1|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 5.1|Win32.Build.0 = Release TD 5.1|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 5.2 SP1|Win32.ActiveCfg = Release TD 5.2 SP1|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 5.2 SP1|Win32.Build.0 = Release TD 5.2 SP1|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 5.2 SP2|Win32.ActiveCfg = Release TD 5.2 SP2|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 5.2 SP2|Win32.Build.0 = Release TD 5.2 SP2|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 6.0 RTM|Win32.ActiveCfg = Release TD 6.0 RTM|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 6.0 RTM|Win32.Build.0 = Release TD 6.0 RTM|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 6.0 SP2|Win32.ActiveCfg = Release TD 6.0 SP2|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 6.0 SP2|Win32.Build.0 = Release TD 6.0 SP2|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 6.0 SP3|Win32.ActiveCfg = Release TD 6.0 SP3|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 6.0 SP3|Win32.Build.0 = Release TD 6.0 SP3|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 6.0 SP5|Win32.ActiveCfg = Release TD 6.0 SP5|Win32
+		{B6BB560A-1A1D-48A8-A892-4ADF5B4B97F6}.Release TD 6.0 SP5|Win32.Build.0 = Release TD 6.0 SP5|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
