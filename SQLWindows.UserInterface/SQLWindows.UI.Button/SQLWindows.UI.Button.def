@@ -1,0 +1,33 @@
+; SQLWindows.UI.Button.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SQLWindows.UI.Button"
+
+EXPORTS
+    UISalButtonGetTextAlignment		@1
+	UISalButtonSetTextAlignment		@2
+	UISalButtonGetIconAlignment		@3
+	UISalButtonSetIconAlignment		@4
+	UISalButtonSetTooltipText		@5
+	UISalButtonEnableTooltip		@6
+	UISalButtonSetCursor			@7
+	UISalButtonGetDrawBorder		@8
+	UISalButtonSetDrawBorder		@9
+	UISalButtonGetDrawFocusRect		@10
+	UISalButtonSetDrawFocusRect		@11
+	UISalButtonGetTextColorDisabled	@12
+	UISalButtonSetTextColorDisabled	@13
+	UISalButtonGetTextColorNormal	@14
+	UISalButtonSetTextColorNormal	@15
+	UISalButtonGetTextColorHover	@16
+	UISalButtonSetTextColorHover	@17
+	UISalButtonGetTextColorPressed	@18
+	UISalButtonSetTextColorPressed	@19
+	UISalButtonGetBkColor			@20
+	UISalButtonSetBkColor			@21
+	UISalButtonGetTextMargins		@22
+	UISalButtonSetTextMargins		@23
+	UISalButtonGetIconMargins		@24
+	UISalButtonSetIconMargins		@25
+	UISalButtonGetFocusMode			@26
+	UISalButtonSetFocusMode			@27
+	UISalButtonSetIcon				@28
