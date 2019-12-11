@@ -1,0 +1,16 @@
+; SQLWindows.UI.WindowTools.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SQLWindows.UI.WindowTools"
+
+EXPORTS
+	UISalMDIWindowsListShow			@900
+	UISalMDIWindowsTabBarCreate		@901
+	UISalMDIWindowsTabBarDestroy	@902
+	UISalBackgroundSetImage			@903
+	UISalGetMDIClient				@904
+	UISalGetDockBarTop				@905
+	UISalGetDockBarLeft				@906
+	UISalGetDockBarRight			@907
+	UISalGetDockBarBottom			@908
+	UISalGetRibbonBar				@909
+	UISalSubclassChildWindows		@910
