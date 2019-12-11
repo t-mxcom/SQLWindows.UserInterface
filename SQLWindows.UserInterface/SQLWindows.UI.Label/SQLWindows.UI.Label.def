@@ -1,0 +1,26 @@
+; SQLWindows.UI.Label.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SQLWindows.UI.Label"
+
+EXPORTS
+	UISalLabelGetFontBold			@75
+	UISalLabelSetFontBold			@76
+	UISalLabelGetFontItalic			@77
+	UISalLabelSetFontItalic			@78
+	UISalLabelGetFontUnderline		@79
+	UISalLabelSetFontUnderline		@80
+	UISalLabelGetFontStrikeOut		@81
+	UISalLabelSetFontStrikeOut		@82
+	UISalLabelGetBkColor			@83
+	UISalLabelSetBkColor			@84
+	UISalLabelGetTextColor			@85
+	UISalLabelSetTextColor			@86
+	UISalLabelGetImageMode			@87
+	UISalLabelSetImageMode			@88
+	UISalLabelGetBitmapHANDLE		@89
+	UISalLabelSetBitmapHANDLE		@90
+	UISalLabelGetBitmapHBITMAP		@91
+	UISalLabelSetBitmapHBITMAP		@92
+	UISalLabelGetBitmapHICON		@93
+	UISalLabelSetBitmapHICON		@94
+	UISalLabelSetTooltipText		@95
