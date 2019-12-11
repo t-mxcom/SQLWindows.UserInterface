@@ -1,0 +1,94 @@
+Version 3.0
+----------------------------------------------------------------------
+Supports:	Gupta Team Developer 6.3 RTM
+			Gupta Team Developer 6.3 SP 1
+
+Version 2.4
+----------------------------------------------------------------------
+Supports:	Gupta Team Developer 6.1 RTM
+			Gupta Team Developer 6.1 SP 3R
+			Gupta Team Developer 6.1 SP 4
+			Gupta Team Developer 6.2 RTM
+			Gupta Team Developer 6.2 SP 1
+
+Version 2.1
+----------------------------------------------------------------------
+Supports:	Unify Team Developer 5.1 SP 6
+			Unify Team Developer 5.2 SP 1
+			Unify Team Developer 5.2 SP 2
+			Unify Team Developer 6.0 RTM
+	* Fixed some compatibility issues for supporting TD 6.0 RTM
+	* Added UIProgressBar
+	* Added UISpinControl
+	* Modified sample application to show a more realistic Grid usecase
+
+Version 2.0
+----------------------------------------------------------------------
+Supports:	Unify Team Developer 5.1 SP 6
+			Unify Team Developer 5.2 SP 1
+	* Fixed some compatibility issues for supporting TD 5.2 SP 1
+	* Added UISalSubclassChildWindows
+
+Version 1.8
+----------------------------------------------------------------------
+Requires: Unify Team Developer 5.1 SP 6
+	* Background Painting improved, so the MDI client area can be
+	  painted using the selected theme.
+	* New functions for managing docking/floating Dialogs.
+	* New functions for managing Child Grids.
+	* New functions for managing the Status Bar.
+
+Version 1.7
+----------------------------------------------------------------------
+Requires: Unify Team Developer 5.1 SP 6
+	* New functions for managing the Page Navigator control
+	* New functions for managing the Hyper Link Button control
+	* New functions for managing Popup Tip Windows
+	* New functions for displaying a Tab Bar showing the open MDI's
+	* Improved anchor (resizing) performance
+	* This version is built with Team Developer 5.1 SP 6. 
+	  Using any other version of Team Developer may break the
+	  functionality of this module.	  
+
+Version 1.3 - 1.6
+----------------------------------------------------------------------
+	* internal releases
+
+Version 1.2
+----------------------------------------------------------------------
+Requires: Unify Team Developer 5.1 SP 6
+	* Fix of the required CRT to meet TD 5.1 SP 6 requirements
+	* UISalPaintManagerGetColor doesn't need a window handle any more
+	* New functions for managing anchors (resizing)
+	* New function for displaying background images
+	* New paint manager functions
+	* Preview of Hyper Link Button control
+	* Preview of Page Container control
+	* This version is built with Team Developer 5.1 SP 6. 
+	  Using any other version of Team Developer may break the
+	  functionality of this module.	  
+	
+Version 1.1
+----------------------------------------------------------------------
+Requires: Unify Team Developer 5.1 SP 6
+	* Fix of a missing calling convention specification.
+	* New functions for controling labels (Background Texts). 
+	* New (simple) support for adding a Theme Switcher Bar
+	* New support for themed message boxes
+	* Splitting into multiple APLs, each for one control.
+	* Renaming the functions to UISal...
+	* Enhanced sample application using M!Image
+	* Preview of Page Navigator control
+	* Preview of Property Grid control
+	* This version is built with Team Developer 5.1 SP 6. 
+	  Using any other version of Team Developer may break the
+	  functionality of this module.	  
+
+Version 1.0
+----------------------------------------------------------------------
+Requires: Unify Team Developer 5.1 SP 5
+	* Creation of the module with it's basic functionality.
+	* This version is built with Team Developer 5.1 SP 5. 
+	  Using any other version of Team Developer may break the
+	  functionality of this module.
+	  

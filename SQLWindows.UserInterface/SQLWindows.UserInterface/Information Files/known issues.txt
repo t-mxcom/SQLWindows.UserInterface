@@ -1,0 +1,135 @@
+General
+----------------------------------------------------------------------
+	* This DLL is not, and will never be usable in TD 6.x WPF .NET
+	  applications, as it is based on the Prof-UI library. This
+	  library is only used by the TD Win32 runtime.
+
+Buttons (UIButton, UISalButton*)
+----------------------------------------------------------------------
+	* If the alignment of image and text inside a buttons was changed
+	  using this library, modifying the image with SalPicSet will
+	  restore Team Developer's default alignment.
+	* By using alignment values other than the predefined enums,
+	  slightly different alignments could be obtained. But the values
+	  are not documented.
+	* If used inside a toolbar, the tooltips don't show, if the mouse
+	  enters from the toolbars client area. If the mouse enters from
+	  another button, the tooltip works.
+
+As TD now supports alignment options and tooltips, you probably won't
+need this functions anymore.
+	  
+Combo Box (UIComboBox, UISalComboBox*)
+----------------------------------------------------------------------
+	* There are just some experimental functions, that currently don't
+	  work as expected.
+	* Multicolumn combo boxes should be supported but can't because of
+	  TD restrictions.
+
+Datafield (UIEdit, UISalEdit*)
+----------------------------------------------------------------------
+	* The function to set tooltip texts complete with success, but no
+	  tooltips are shown.
+
+Grid (UIGrid)
+----------------------------------------------------------------------
+	* The sample application uses some VisTbl-function to change the
+	  colors and fonts of the totals rows. This doesn't work in TD 5.1.
+	  Also the numeric columns are set to be justified right.
+	  This also doesn't work with TD 5.1.
+
+Group Box (UIGroupBox, UISalGroupBox*)
+----------------------------------------------------------------------
+	* Using the functions to modify Group Box behaviour will change
+	  the repainting of the contained controls. To keep your user
+	  interface, controls that should be displayed inside a group box
+	  must be defined before the Group Box in the outline.
+	  This is a documented behaviour of the Prof-UIS library.
+
+TD introduced lots of changes in Group Box painting so the behaviour
+may be different in different TD versions.
+
+Hyper Link Button (UIHyperLinkButton, UISalPHyperLinkButton*)
+----------------------------------------------------------------------
+
+Label (UILabel, UISalLabel*)
+----------------------------------------------------------------------
+
+Message Box (UIMessageBox, UISalMessageBox*)
+----------------------------------------------------------------------
+	* Implementing some most used cases as internal function still
+	  open.
+	* The Prof-UIS library does currently not provide language
+	  specific resources, so the buttons are displayed only in english
+	  or german.
+	* The navigation with keys and using the shortcut keys doesn't
+	  work properly.
+	  Research according the keyboard navigation misbehaviour was
+	  done, but without any results to correct it.
+	  TD 6.0 RTM also supports the themed message box.
+	  But when running as EXE, the navigation doesn't work either.
+	  So maybe this is a problem in TD.
+
+Page Container (UIPageContainer, UISalPageContainer*)
+----------------------------------------------------------------------
+	* This function is just experimental. It can create a Page
+	  Container, but you cannot do more with it.
+
+Page Navigator (UIPageNavigator, UISalPageNavigator*)
+----------------------------------------------------------------------
+	* All public functions are available, but no complete high level
+	  classes are available.
+	* Notification messages are no fixed values messages.
+	  Mapping to fixed messages and decryption of notification data
+	  has to be done.
+
+Paint Manager (UIPaintManager, UISalPaintManager*)
+----------------------------------------------------------------------
+	* Missing functionality to be implemented.
+
+Popup Tip Window (UIPopupTipWindow, UISalPopupTipWindow*)
+----------------------------------------------------------------------
+	* Currently only allowes to create some kind of themed tooltips.
+	  The Show-command needs a rectangle to be provided, which
+	  controls the alignment of the tip. But also the mouse must be
+	  inside this rectangle, else the tip won't show.
+
+ProgressBar (UIProgressBar, UISalProgressBar*)
+----------------------------------------------------------------------
+	* Some of the settings only affect specific themes.
+	  This is by design of the Prof-UI library!
+
+Property Grid (UIPropertyGrid, UISalPropertyGrid*)
+----------------------------------------------------------------------
+	* This function is just experimental. It can create a Property
+	  Grid but you cannot do anything more with it.
+
+Resizing (UISalResizing*)
+----------------------------------------------------------------------
+
+Spin Control (UISpinControl)
+----------------------------------------------------------------------
+
+Tab Bar (UITabBar, UISalTabBar*)
+----------------------------------------------------------------------
+	* Items can be disabled which will draw them with a grey image and
+	  text. Clicking on them will not visually activate them, but the
+	  assigned controls will appear. This is caused by Team Developer
+	  which handles the click events.
+	* Items can be created dynamically at runtime, but it's not
+	  possible to assign controls to them at the moment.
+	  
+As TD now supports more Tab functions, you probably won't need this any more.
+
+Theme Switcher Bar (UIThemeSwitcherBar, UISalThemeSwitcherBar*)
+----------------------------------------------------------------------
+	* The functions currently don't allow much control on how the
+	  bar is created and displayed.
+
+Window Tools (UIWindowTools, UISalWindowTools*)
+----------------------------------------------------------------------
+	* Window update issue with the MDI Windows Tab Bar
+	  After the control has been created, it's not visible immediately
+	  but after the window has been redrawn (eg. on resize event).
+	  Note that you just see the control, if MDI child windows exist.
+
