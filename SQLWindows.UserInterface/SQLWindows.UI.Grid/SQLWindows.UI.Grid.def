@@ -1,0 +1,9 @@
+; SQLWindows.UI.Grid.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SQLWindows.UI.Grid"
+
+EXPORTS
+	UISalGridSetFrozenColumnCountLeft	@600
+	UISalGridSetFrozenColumnCountRight	@601
+	UISalGridSetFrozenRowCountTop		@602
+	UISalGridSetFrozenRowCountBottom	@603
