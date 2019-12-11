@@ -1,0 +1,20 @@
+; SQLWindows.UI.ControlBar.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SQLWindows.UI.ControlBar"
+
+EXPORTS
+	UISalControlBarToggleDocking						@500
+	UISalControlBarAppearInDockSiteControlBarPopupMenu	@501
+	UISalControlBarRemoveAllButtons						@502
+	UISalControlBarIsAutoHideButtonPresent				@503
+	UISalControlBarRemoveAutoHideButton					@504
+	UISalControlBarEnableAutoHideButton					@505
+	UISalControlBarIsCloseButtonPresent					@506
+	UISalControlBarRemoveCloseButton					@507
+	UISalControlBarEnableCloseButton					@508
+	UISalControlBarIsExpandButtonPresent				@509
+	UISalControlBarRemoveExpandButton					@510
+	UISalControlBarEnableExpandButton					@511
+	UISalControlBarIsMenuButtonPresent					@512
+	UISalControlBarRemoveMenuButton						@513
+	UISalControlBarEnableMenuButton						@514
