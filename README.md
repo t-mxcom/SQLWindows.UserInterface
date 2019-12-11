@@ -67,6 +67,8 @@ After checking all possibilities and legal conditions, the final sulution is the
 
   * All references to the name *RACON* were removed. (see below for details)
 
+* Please note, that the code contains a bunch of functions that I only used for experimenting. They are not finished and even may not work at all!
+
 ## Will I be able to build the component after cloning this repository?
 
 Definitively **no!**
