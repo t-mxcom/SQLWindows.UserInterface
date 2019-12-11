@@ -1,0 +1,49 @@
+; SQLWindows.UI.ProgressBar.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SQLWindows.UI.ProgressBar"
+
+EXPORTS
+	UISalProgressBarCreate			@700
+	UISalProgressBarGetPos			@701
+	UISalProgressBarGetRange		@702
+	UISalProgressBarOffsetPos		@703
+	UISalProgressBarSetBkColor		@704
+	UISalProgressBarSetPos			@705
+	UISalProgressBarSetRange		@706
+	UISalProgressBarSetRange32		@707
+	UISalProgressBarSetStep			@708
+	UISalProgressBarStepIt			@709
+	UISalProgressBarSetColorProgressBarFrom			@710
+	UISalProgressBarGetColorProgressBarFrom			@711
+	UISalProgressBarSetColorProgressBarTo			@712
+	UISalProgressBarGetColorProgressBarTo			@713
+	UISalProgressBarSetColorBackgroundArea			@714
+	UISalProgressBarGetColorBackgroundArea			@715
+	UISalProgressBarSetColorBorderLeftTop			@716
+	UISalProgressBarGetColorBorderLeftTop			@717
+	UISalProgressBarSetColorBorderRightBottom		@718
+	UISalProgressBarGetColorBorderRightBottom		@719
+	UISalProgressBarSetEnlightColorProgressBarFrom	@720
+	UISalProgressBarGetEnlightColorProgressBarFrom	@721
+	UISalProgressBarSetEnlightColorProgressBarTo	@722
+	UISalProgressBarGetEnlightColorProgressBarTo	@723
+	UISalProgressBarSetSizeBorderSpace				@724
+	UISalProgressBarGetSizeBorderSpaceX				@725
+	UISalProgressBarGetSizeBorderSpaceY				@726
+	UISalProgressBarSetSizeDistanceBetweenBlocks	@727
+	UISalProgressBarGetSizeDistanceBetweenBlocksX	@728
+	UISalProgressBarGetSizeDistanceBetweenBlocksY	@729
+	UISalProgressBarSetSizeBlockScaleFactorH		@730
+	UISalProgressBarGetSizeBlockScaleFactorHX		@731
+	UISalProgressBarGetSizeBlockScaleFactorHY		@732
+	UISalProgressBarSetSizeBlockScaleFactorV		@733
+	UISalProgressBarGetSizeBlockScaleFactorVX		@734
+	UISalProgressBarGetSizeBlockScaleFactorVY		@735
+	UISalProgressBarSetHasBorder					@736
+	UISalProgressBarGetHasBorder					@737
+	UISalProgressBarSetHorizontalGradientBars		@738
+	UISalProgressBarGetHorizontalGradientBars		@739
+	UISalProgressBarSetImmediateUpdating			@740
+	UISalProgressBarGetImmediateUpdating			@741
+	UISalProgressBarSetUsePaintManager				@742
+	UISalProgressBarGetUsePaintManager				@743
