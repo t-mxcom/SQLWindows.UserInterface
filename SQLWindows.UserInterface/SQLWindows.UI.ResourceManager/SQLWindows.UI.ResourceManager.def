@@ -1,0 +1,6 @@
+; SQLWindows.UI.ResourceManager.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SQLWindows.UI.ResourceManager"
+
+EXPORTS
+	UISalResourceManagerSetDesiredLangId	@800
