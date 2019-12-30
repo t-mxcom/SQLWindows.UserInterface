@@ -96,4 +96,8 @@ The company *RACON*, whose name was part of the components name in the past, ena
 
 Now, they allowed me to open source the component for you as a reference, but only after removing the companies name (mentioned above as minor changes).
 
-If you have any questions or want to give feedback, please e-mail me at [sqlwindows.userinterface@t-mx.com](mailto:sqlwindows.userinterface@t-mx.com "Send me e-mail on the SQLWindows.UserInterface component!").
+If you have any questions or want to give feedback, please e-mail me at [sqlwindows.userinterface@t-mx.com](mailto:sqlwindows.userinterface@t-mx.com "Send me e-mail on the SQLWindows.UserInterface component!") or post your questions to the [TD Community Forum](https://forum.tdcommunity.net/ "Link to TD Community Forum.").
+
+## Download
+
+You can download the binary versions of the component from the [TD Community Wiki](https://wiki.tdcommunity.net/index.php/RACON_UserInterface "Link to TD Community Wiki!").

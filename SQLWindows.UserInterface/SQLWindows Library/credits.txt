@@ -1,0 +1,3 @@
+The icons contained in this directory were either extracted from bitmap resources of the Prof-UIS SDK or were taken from the Vista Icon Pack ST.
+Find the Prof-UIS SDK at www.prof-uis.com
+Find the Vista Icon Pack ST at https://www.chip.de/downloads/Vista-Icon-Pack-ST_19140082.html

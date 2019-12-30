@@ -1,0 +1,2 @@
+The icons contained in this directory were extracted from bitmap resources of the Prof-UIS SDK.
+Find the SDK at www.prof-uis.com
