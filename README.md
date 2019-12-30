@@ -101,3 +101,7 @@ If you have any questions or want to give feedback, please e-mail me at [sqlwind
 ## Download
 
 You can download the binary versions of the component from the [TD Community Wiki](https://wiki.tdcommunity.net/index.php/RACON_UserInterface "Link to TD Community Wiki!").
+
+## License
+
+The source code is published under the [MIT license](https://github.com/t-mxcom/SQLWindows.UserInterface/blob/master/SQLWindows.UserInterface/SQLWindows.UserInterface/Information%20Files/license.txt "MIT License file.").
