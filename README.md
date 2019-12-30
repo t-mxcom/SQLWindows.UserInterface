@@ -1,3 +1,5 @@
+![User Interface Extension Library for OpenText Gupta Team Developer (Research Repository)](readme.png "SQLWindows.UserInterface Research Repository")
+
 # SQLWindows.UserInterface
 
 This project contains a **User Interface Extension Library for OpenText Gupta Team Developer**, that was formerly published under the name *RACON.SQLWindows.UserInterface*.
