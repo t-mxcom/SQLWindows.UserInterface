@@ -4,18 +4,6 @@
 
 This project contains a **User Interface Extension Library for OpenText Gupta Team Developer**, that was formerly published under the name *RACON.SQLWindows.UserInterface*.
 
-***
-
-**Important notice**
-
-This repository is currently being set up and files will be added step-by-step.
-
-So, if you see this notice and are interested in the content of this repository, please be patient! I'll remove this notice as soon as I finished my work on it!
-
-THANK YOU!
-
-***
-
 ## Introduction
 
 The project was created, developed and maintained by me exclusively but because of changes in my working sphere, I nearly had no time to continue with it.
